@@ -11,9 +11,9 @@ int main( int argc, char ** argv ){
 
   while( true ){
     cap.read( img );
-    cv::imshow("Minha Webcam", img);
+    cv::imshow("Minha Webcam", img );
     cv::imwrite("teste.jpeg", img );
-    cv::VideoWriter escritor() "xxx.avi", 4, 25, 300, true );
+    // cv::VideoWriter escritor() "xxx.avi", 4, 25, 300, true );
     cv::waitKey( 1 );
   }
 
